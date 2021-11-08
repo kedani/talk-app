@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+class Car {
+	String maker; // メーカー
+	int displacement; // 排気量
+	String color; // 色
+ 
+	void start() {
+		System.out.println("発進します");
+	}
+ 
+	void stop() {
+		System.out.println("止まります");
+	}
+ 
+	void curve() {
+		System.out.println("曲がります");
+	}
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
