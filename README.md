@@ -16,4 +16,3 @@ class Car {
 	void curve() {
 		System.out.println("曲がります");
 	}
-
